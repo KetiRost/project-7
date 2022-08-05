@@ -35,11 +35,17 @@ header {
  }
 
  /* section 1 */
+ .section1 {
+    margin-bottom: 200px;
+ }
+ .section2 {
+    margin-bottom: 85px;
+ }
  .flex-box {
     width: 1170px;
     margin: 0 auto;
     margin-top: 90px;
-    margin-bottom: 280px;
+    /* margin-bottom: 200px; */
     display: flex;
     flex-flow: row wrap;
     /* background: lightblue; */
@@ -95,7 +101,7 @@ header {
     width: 1170px;
     margin: 0 auto;
     /* background: lightpink; */
-    margin-bottom: 85px;
+    /* margin-bottom: 85px; */
  }
 
  .text-box3 {

@@ -181,21 +181,19 @@ h1 {
 .round:hover .click {
     color: black;
 }
- 
-.box-size:nth-child(1),
-.box-size:nth-child(2),
-.box-size:nth-child(3) {
-    margin-bottom: 40px;
-}
+
 
 .box-size:nth-child(1) {
-    background: #FBBA77;
+    background:#FBBA77; 
+    margin-bottom: 40px;
 }
 .box-size:nth-child(2) {
     background: #41EAE3;
+    margin-bottom: 40px;
 }
 .box-size:nth-child(3) {
     background: #69529F;
+    margin-bottom: 40px;
 }
 .box-size:nth-child(4) {
     background: #4386D2;
@@ -205,4 +203,23 @@ h1 {
 }
 .box-size:nth-child(6) {
     background: #FF8088
+}
+/* :hover shadow */
+.box-size:nth-child(1):hover {
+    box-shadow: 0px 15px 25px #FBBA77;
+}
+.box-size:nth-child(2):hover {
+    box-shadow: 0px 15px 25px#41EAE3;
+}
+.box-size:nth-child(3):hover {
+    box-shadow: 0px 15px 25px#69529F;
+}
+.box-size:nth-child(4):hover {
+    box-shadow: 0px 15px 25px #4386D2;
+}
+.box-size:nth-child(5):hover {
+    box-shadow: 0px 15px 25px #A5A2F6;
+}
+.box-size:nth-child(6):hover {
+    box-shadow: 0px 15px 25px#FF8088
 }

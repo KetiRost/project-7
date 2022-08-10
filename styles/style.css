@@ -49,8 +49,8 @@
     display: flex;
     /* background: lightblue; */
     justify-content: space-between;
-    padding-left: 6.8%;
-    padding-right: 4.2%;
+    margin-left: 6.8%;
+    margin-right: 4.2%;
 
     
 
@@ -60,26 +60,15 @@
     width: 33%;
     display: flex;
     flex-flow: column wrap;
-    margin-right: 307px;
+    /* margin-right: 307px; */
     /* background: lightcoral; */
  }
-
  .text-box {
     max-width: 600px;
     width: 100%;
     font-size: 78px;
     line-height: 109px;
  }
- .img-box {
-    max-width: 801px;
-    width: 41.7%;
- } 
-
- .image {
-    display: block;
-    width: 100%;
- }
-
  .text-box1 {
     max-width: 602px;
     width: 100%;
@@ -99,13 +88,18 @@
     justify-content: space-evenly;
     border-radius: 38px;
     font-size: 23px;
-    
  }
-
  .wave {
     color:#fff
  }
-
+ .img-box {
+    max-width: 801px;
+    width: 41.7%;
+ } 
+ .image {
+    display: block;
+    width: 100%;
+ }
  /* section 2 */
 
  .container-box2 {

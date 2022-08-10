@@ -85,6 +85,12 @@
 }
 
 @media (max-width: 768px) {
+   nav {
+      display: none;
+   }
+   .header-box {
+      justify-content: end;
+   }
    .flex-box {
        margin-top: 90px;
        margin-bottom: 127px;
@@ -138,6 +144,9 @@
 }
 
 @media (max-width: 480px) {
+   .header-box {
+      justify-content: start;
+   }
    nav {
       display: none;
    }

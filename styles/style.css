@@ -4,6 +4,7 @@
 .header-box {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1708.8px;
     width: 90%;
     margin-top: 67px;
@@ -19,6 +20,7 @@
     color: #4B647E;
     font-weight: lighter;
 }
+
  ul {
     max-width: 581px;
     width: 34%;

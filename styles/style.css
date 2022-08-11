@@ -11,6 +11,13 @@
     margin-left: 6.8%;
     margin-right: 4.2%;
 }
+.burger-bar {
+    display: none;
+}
+.fa-solid {
+    font-size: 25px;
+    color: #3D37F1;
+}
 .home {
     color: #3D37F1;
     font-size: 32px;
@@ -21,10 +28,15 @@
     font-weight: lighter;
 }
 
+ nav {
+    min-width: 581px;
+    /* width: 34%; */
+ }
  ul {
-    max-width: 581px;
-    width: 34%;
+    /* max-width: 581px;
+    width: 34%; */
     display: flex;
+   /* flex-wrap: wrap; */
     justify-content: space-between;
  }
 
@@ -32,7 +44,7 @@
     color: #3D37F1;
     font-size: 20px;
     font-weight: bold;
-    font-style: capital;
+    text-transform: uppercase;
  }
 
  /* section 1 */

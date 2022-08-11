@@ -1,6 +1,9 @@
 @media (max-width: 1366px) {
+   .header-box {
+      margin-top: 50px;
+   }
     .flex-box {
-        margin-top: 110px;
+        margin-top: 100px;
         margin-bottom: 180px;
     }
      .text-box {
@@ -23,7 +26,6 @@
       margin-top: 100px;
       margin-bottom: 100px;
    }
-  
    .text-box3 {
       width: 100%;
       margin-bottom: 47px;
@@ -42,8 +44,10 @@
 }
 
 @media (max-width: 1180px) {
+   .header-box {
+      margin-top: 45px;
+   }
    .flex-box {
-       margin-top: 110px;
        margin-bottom: 127px;
    }
     .text-box {
@@ -52,66 +56,40 @@
     }
     .text-box1 {
        font-size: 16px;
-       margin-top: 25px;
        margin-bottom: 20px;
        line-height: 25px;
     }
-    .blue-box {
-     width: 163.67px;
-     height: 46.77px;
-     font-size: 15px;
-  }
   .container-box2 {
      width: 90%;
      margin-top: 57px;
-     margin-bottom: 100px;
   }
- 
-  .text-box3 {
-     width: 100%;
-     margin-bottom: 47px;
- }
-
- .icon {
-  margin-bottom: 27px;
-}
- .round {
-  width: 145px;
-}
-.box-size {
-  height: 380px;
-}
 
 }
 
 @media (max-width: 768px) {
+   .header-box {
+      margin-top: 40px;
+      justify-content: space-between;
+   }
    nav {
       display: none;
    }
-   .header-box {
-      justify-content: end;
+   .burger-bar {
+      display: block;
    }
+  
    .flex-box {
-       margin-top: 90px;
-       margin-bottom: 127px;
+       margin-top: 60px;
    }
     .text-box {
-       font-size: 25px;
        line-height: 35px;
     }
     .text-box1 {
        font-size: 14px;
        margin-top: 25px;
        margin-bottom: 0px;
-       line-height: 25px;
     }
-    .blue-box {
-     width: 163.67px;
-     height: 46.77px;
-     font-size: 15px;
-  }
   .container-box2 {
-     width: 90%;
      margin-top: 37px;
      margin-bottom: 70px;
   }
@@ -124,15 +102,8 @@
    font-size: 30px;
    line-height: 70px;
 }
- .icon {
-  margin-bottom: 27px;
-}
- .round {
-  width: 145px;
-}
 .box-size {
    width: 45%;
-  height: 380;
 }
 .box-size:nth-child(1),
 .box-size:nth-child(2),
@@ -145,10 +116,7 @@
 
 @media (max-width: 480px) {
    .header-box {
-      justify-content: start;
-   }
-   nav {
-      display: none;
+      margin-top: 35px;
    }
    .flex-box {
       width: 80%;
@@ -198,101 +166,57 @@
    font-size: 30px;
    line-height: 40px;
 }
- .icon {
-  margin-bottom: 27px;
+.flex-box2 {
+   flex-flow: column wrap;
+   align-items: center;
 }
- .round {
-  width: 145px;
-}
-
 .box-size {
-   width: 48%;
-  height: 380;
+   width: 80%;
 }
 .box-size:nth-child(1),
 .box-size:nth-child(2),
 .box-size:nth-child(3),
-.box-size:nth-child(4)
+.box-size:nth-child(4),
+.box-size:nth-child(5)
  {
    margin-bottom: 25px;
 }
 }
 
 @media (max-width: 320px) {
-   nav {
-      display: none;
-   }
+   .header-box {
+      margin-top: 30px;
+   } 
 
    .flex-box {
-      width: 90%;
-      flex-direction: column;
-      align-items: center;
      margin: 67 auto;
      margin-bottom: 40px;
    }
   
-.text-container {
-     width: 100%;
-     flex-direction: column;
-     align-items: center;
-     text-align: center;
-}
     .text-box {
       width: 80%;
-       font-size: 32px;
-       line-height: 35px;
-    }
+      }
+       
     .text-box1 {
-       font-size: 14px;
-       margin-top: 25px;
        margin-bottom: -50px;
        line-height: 15px;
     }
-    .blue-box {
-     width: 163.67px;
-     height: 46.77px;
-     font-size: 15px;
-     margin-bottom: 70px;
-  }
-  .img-box {
-   width: 100%;
-} 
-
-  .container-box2 {
-     width: 90%;
-     margin-top: 37px;
-     margin-bottom: 70px;
-  }
  
-  .text-box3 {
-     width: 100%;
-     margin-bottom: 27px;
-     text-align: center;
- }
  .text1 {
    margin: 18px auto;
    font-size: 32px;
    line-height: 40px;
 }
- .icon {
-  margin-bottom: 27px;
-}
- .round {
-  width: 145px;
-}
-.flex-box2 {
-   flex-flow: column wrap;
-   align-items: center;
-}
+ 
 .box-size {
    width: 90%;
-  height: 380;
 }
 .box-size:nth-child(1),
 .box-size:nth-child(2),
 .box-size:nth-child(3),
 .box-size:nth-child(4),
-.box-size:nth-child(5) {
+.box-size:nth-child(5)
+ {
    margin-bottom: 25px;
 }
 }
